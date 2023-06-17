@@ -1,0 +1,188 @@
+<!---Portfolio-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Personal Portfolio Website</title>
+        <link rel="stylesheet" href="port.css">
+        <script src="https://kit.fontawsome.com/7062a22690.js" crossorigin="anonymous"></script>
+    </head>    
+    <body>
+        <div class="nav">
+            <br>
+            <nav>
+                   
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+            
+        <div id="header">
+            <div class="container">
+               
+                <div class="header-text">
+                    <p>Web Developer</p>
+                    <h2>Hi , I'm <br>Milind Patil</h2>
+                    <hr>
+                    <h3>Computer Engineering Student</h3>
+                </div>
+               <div class="frame">
+                <div class="back_img">
+                    <img src="milind1.png" class="img">
+                </div>
+
+               </div>
+            </div>
+        </div>
+        <br>
+        <!---About-->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1"> </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title1">About Me</h1>
+                        <p>I'm a currently pursuing B-Tech degree in Computer Engineering </p><br>
+                        <p>I would like to show my creativity in designing and developing Website</p><br>
+                        
+                    
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links active-link" onclick="opentab('experience')">Projects</p>
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI?UX</span><br>Designing Web/App Interfaces</li>
+                                 <li><span>Web Development</span><br>Web App Development</li>
+                                <li><span>App Development</span><br>Building Android App</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>2023-Current</span><br>Designing a Landing page and <br>Personal Portfolio Website</li>
+                                <li><span>App Development</span><br>Career Options</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li><span>2023-Current</span><br>B.Tech Computer Engineering</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <br>
+        <!--Services-->
+        <div id="services">
+            <div class="container1">
+                <h1 class="sub-title">My services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>I have good knowledge of html5,css and java script.I enjoy developing Websites as I show my creativity in designing web pages.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop-simple"></i>
+                        <h2>UI/UX Desing</h2>
+                        <p>I like to create user-frindly interfaces that enables useres to understand how to use complex technical products.</p>
+                        <a href="#">Lern More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store"></i>
+                        <h2>App Development</h2>
+                        <p>Also interested in developing apps for Android using tranding technologies.</p>
+                        <a href="#">Lern More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <!--Portfolio-->
+        <div id="portfolio">
+            <div class="container2">
+                <h1 class="sub-title1">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="Pro1.png">
+                        <div class="layer">
+                            <h3>Landing Page</h3>
+                            <p>The landing Page for the Templetes, where they can show different templetes.</p>
+                            <a href="#"><i class="fa-solid fa-up-rigth-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="pro2.png">
+                        <div class="layer">
+                            <h3>Website</h3>
+                            <p>This App is use for Calculating the Temperature in celcius and fahrenheit</p>
+                            <a href="#"><i class="fa-solid fa-up-rigth-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn"><b>SEE MORE</b></a>
+            </div>
+        <div> 
+            <br>
+            <br>
+            <br>
+        <!--Contact-->
+        <div id="contact">
+            <div class="container1">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-sharp fa-solid fa-paper-plane"></i>milindp345@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>7264084859</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+            
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        </form>
+                    </div>
+                    <a href="#" class="btn"  style="color:black"><b>SUBMIT</b></a>
+                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright"></div>
+        </div>
+
+<!---ENd-->
+        <script>
+            var tablinks=document.getElementsByClassName("tab-links");
+            var tabcontent=document.getElementsByClassName("tab-contents");
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currenttarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+        </script>
+    </body>
+    
+</html>

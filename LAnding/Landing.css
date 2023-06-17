@@ -1,0 +1,94 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto' , sans-serif;
+}
+
+section{
+    min-height: 100vh;
+    background-image:url("ad.avif");
+    text-decoration: none;
+    filter: brightness(90%);
+    background-size: cover;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+    
+}
+
+nav{
+    height: 80px;
+    background-color: transparent;
+    box-shadow: 0px 3px 5px black;
+    color: white;
+}
+nav h1{
+    float: left;
+    line-height: 80px;
+    font-size: 30px;
+    font-size: inline;
+    color: white;
+}
+ul{
+    
+    display: inline-flex;
+    margin-top: 1%;
+    list-style: none;
+    float: right;
+    background: linear-gradient(to left,rgb(70, 14, 193),rgb(8, 132, 204));
+
+}
+a{
+    list-style: none;
+    color: white;
+    text-decoration:none;
+    padding: 15px;
+    text-transform: uppercase;
+}
+:hover.list{
+    text-shadow: 1px 5px 12px black;
+}
+.h1{
+    background:linear-gradient(to left,rgb(70, 14, 193),rgb(8, 132, 204));
+    font-size: 500%;
+    text-shadow: 2px 2px 5px black;
+    width: 60%;
+    margin: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
+.article{
+    color: white;
+    text-align: center;
+    margin-top: 10%;
+    background-color: black;
+   height: 55%;
+    
+}
+button{
+    width: 30%;
+    height: 20%;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    font-size: larger;
+    border-radius: 10px;
+
+}
+:hover button{
+    background: linear-gradient(to left,rgb(70, 14, 193),rgb(8, 132, 204));
+    text-shadow: 1px 2px 5px black;
+    box-shadow: 0px 0px 2px black;
+
+
+
+
+}
+
+
